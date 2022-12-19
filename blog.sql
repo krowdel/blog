@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.5deb2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Czas generowania: 15 Wrz 2022, 20:07
--- Wersja serwera: 10.3.34-MariaDB-0ubuntu0.20.04.1
--- Wersja PHP: 7.4.3
+-- Host: 127.0.0.1
+-- Czas generowania: 19 Gru 2022, 19:07
+-- Wersja serwera: 10.4.24-MariaDB
+-- Wersja PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -45,10 +44,23 @@ CREATE TABLE `articles` (
 --
 
 INSERT INTO `articles` (`id`, `id_category`, `lang`, `title`, `content`, `published`, `shortcontent`, `date_add`, `date_up`) VALUES
-(5, 1, 'pl', 'Jakie korzyści otrzymuje firma korzystając z serwisu cyberbiznes.pl?', '<p><i>Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali <strong>nowymi podatkami, daninami co </strong>w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali <strong>nowymi podatkami, daninami co </strong>w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali <strong>nowymi podatkami, daninami co </strong>w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali <strong>nowymi podatkami, daninami co </strong>w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.</i></p><p><i>Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali <strong>nowymi podatkami, daninami co </strong>w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.</i></p>', 1, 'Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.', '2022-08-13 09:50:40', '2022-09-10 13:06:18'),
-(6, 1, 'pl', 'Wojna na Ukrainie, a jej wpływ na firmy', '<p>Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.</p>', 1, 'Zmieniająca się rzeczywistość wymusza na przedsiębiorcach dostosowywanie swoich firm do warunków panujących w ich otoczeniu. Rok 2022 rozpoczął się gdy gospodarka cały czas nie wyszła z pandemii covid-19. Wielką niewiadomą jest Polski Ład. Reforma, która miała być panaceum na wiele problemów spowodowała jeszcze więcej problemów. Przedsiębiorcy przyduszeni zostali nowymi podatkami, daninami co w efekcie przekłada się na wzrost cen i inflację. Rosną ceny gazu, energii elektrycznej, rośnie inflacja. Do problemów wewnętrznych dołącza kolejny, prawdopodobnie największy. Wojna na Ukrainie. 24 lutego Rosja zaatakowała Ukrainę. Orędzie Putina nie pozostawia wątpliwości – wojna się rozpoczęła. W Kijowie wyją syreny a rosyjskie i białoruskie czołgi wjeżdżają w głąb Ukrainy. NATO, Unia Europejska wprowadzają sankcje na Rosję. Mówi się o odcięciu Rosji od systemu bankowego SWIFT. Nord Stream2 zostaje zablokowany, nikt tak naprawdę nie wie co będzie dalej z dostawami gazu od którego uzależniona jest Europa (elektrownie gazowe). Wojna i sankcje odbiją się również na polskich przedsiębiorstwach. Gospodarka to mechanizm naczyń połączonych.', '2022-08-13 09:52:28', '2022-09-10 13:05:59'),
-(31, 1, 'pl', 'ttttttttt', '<p>sssssssssssss</p>', 0, 'ttttttttttttt', '2022-09-14 20:04:26', '2022-09-14 20:04:26'),
-(32, 3, 'de', 'test cate', '<p>fdsafasd</p>', 1, 'sfsda', '2022-09-14 20:13:13', '2022-09-14 20:13:13');
+(31, 1, 'pl', 'tttttttttfdfdsaf', '<p>sssssssssssss&nbsp;</p>', 1, 'ttttttttttttt', '2022-09-14 20:04:26', '2022-12-19 18:53:48'),
+(32, 1, 'de', 'test cate', '<p>fdsafasd</p>', 1, 'sfsdafdsfasfds', '2022-09-14 20:13:13', '2022-09-27 18:10:54'),
+(33, 1, 'pl', 'fdsfdsa', '<p>fdsaf</p>', 1, 'fdsfas', '2022-09-17 17:08:23', '2022-09-24 09:29:42'),
+(35, 4, 'pl', 'fds testst ', '<p>fdsf fdsf sdaf dasf dfsads fdas fsda ffadsf dsaf fa</p>', 1, 'test ', '2022-09-24 10:11:09', '2022-09-24 10:47:59'),
+(36, 8, 'pl', 'subeti', '<p>deszczdeszcze deszcze deszcze jest ok flagaflaga</p>', 0, 'flaga flaga flaga f', '2022-09-24 10:50:31', '2022-09-24 10:50:31'),
+(37, 1, 'pl', 'tewss', '<p>fdsf fdsfsdaaf fdsafdsf fdsfsdaf fdas fsdfsdafjestem kotem jestem kotem jestem kotem jestem kotem jestem kotem jestem kotem jestem kotem flaga flaga gafa gafa gafa gafa gafa gafa jest&nbsp;</p>', 0, 'fds', '2022-10-02 13:19:54', '2022-10-02 13:30:41');
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `articletags`
+--
+
+CREATE TABLE `articletags` (
+  `id_article` int(11) NOT NULL,
+  `id_tag` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -68,9 +80,41 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id_category`, `name`, `lang`, `active`) VALUES
-(1, 'Wiadomości', 'pl', 0),
-(3, 'Popularne', 'en', 0),
-(4, 'Cyberbiznes', 'de', 1);
+(1, 'Wiadomości', 'pl', 1),
+(3, 'Popularne', 'en', 1),
+(4, 'Cyberbiznes', 'de', 1),
+(8, 'test', 'pl', 0),
+(9, 'test 2', 'pl', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `tags`
+--
+
+CREATE TABLE `tags` (
+  `name_tag` varchar(120) NOT NULL,
+  `id_article` int(11) NOT NULL,
+  `lang` varchar(4) NOT NULL DEFAULT 'pl'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Zrzut danych tabeli `tags`
+--
+
+INSERT INTO `tags` (`name_tag`, `id_article`, `lang`) VALUES
+('tes', 35, 'pl'),
+('flafga', 36, 'pl'),
+('flaga', 36, 'pl'),
+('faka', 36, 'pl'),
+('cyberbiznes', 32, 'pl'),
+('flaga', 32, 'pl'),
+('gospodarka', 32, 'pl'),
+('tes', 32, 'pl'),
+('cyberbiznes', 37, 'pl'),
+('dfsdf', 31, 'pl'),
+('cyberbiznes', 31, 'pl'),
+('faka', 31, 'pl');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -89,20 +133,20 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`id_category`);
 
 --
--- AUTO_INCREMENT dla tabel zrzutów
+-- AUTO_INCREMENT dla zrzuconych tabel
 --
 
 --
 -- AUTO_INCREMENT dla tabeli `articles`
 --
 ALTER TABLE `articles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT dla tabeli `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id_category` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_category` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
