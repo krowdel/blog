@@ -1,0 +1,35 @@
+{
+    "host": "127.0.0.1",
+    "db_blog": "blog",
+    "user": "root",
+    "password": "",
+    "coverUrl": "../../../cover/",
+    "coverView": "/blog/cover/", 
+    "coverSize": [1900, 600],
+    "lang": [
+        {
+            "id": "pl",
+            "name": "Polski"
+        },
+        {
+            "id": "en",
+            "name": "Angielski"
+        },
+        {
+            "id": "de",
+            "name": "Niemcki"
+        },
+        {
+            "id": "ru",
+            "name": "Rosyjski"
+        },
+        {
+            "id": "hu",
+            "name": "Węgierski"
+        },
+        {
+            "id": "ua",
+            "name": "Ukraina"
+        }
+    ]
+}
